@@ -3,7 +3,7 @@
 ## Live Demo
 🔗 https://web-production-da129.up.railway.app
 
-![Login Page](public/screenshots/login.jpg)
+![Login Page](public/screenshots/Login.jpg)
 
 
 Aplikasi pemesanan kendaraan untuk perusahaan tambang nikel dengan fitur approval berjenjang 2 level, dashboard grafik pemakaian, dan export laporan Excel.
