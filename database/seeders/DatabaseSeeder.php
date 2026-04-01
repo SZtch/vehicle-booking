@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
         User::create([
             'name'       => 'Admin Fleet',
             'email'      => 'admin@fleet.com',
-            'password'   => Hash::make('password'),
+            'password'   => Hash::make('12345'),
             'role'       => 'admin',
             'department' => 'Pool Kendaraan',
             'phone'      => '081234567890',
@@ -26,7 +26,7 @@ class DatabaseSeeder extends Seeder
         User::create([
             'name'           => 'Budi Santoso',
             'email'          => 'approver1@fleet.com',
-            'password'       => Hash::make('password'),
+            'password'       => Hash::make('12345'),
             'role'           => 'approver',
             'approval_level' => 1,
             'department'     => 'Operasional',
@@ -37,7 +37,7 @@ class DatabaseSeeder extends Seeder
         User::create([
             'name'           => 'Siti Rahayu',
             'email'          => 'approver2@fleet.com',
-            'password'       => Hash::make('password'),
+            'password'       => Hash::make('12345'),
             'role'           => 'approver',
             'approval_level' => 2,
             'department'     => 'Manajemen',
