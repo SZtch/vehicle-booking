@@ -111,7 +111,7 @@
                         <small class="text-muted d-block mb-1">Demo Credentials:</small>
                         <small class="text-muted">Admin: admin@fleet.com</small><br>
                         <small class="text-muted">Approver: approver1@fleet.com</small><br>
-                        <small class="text-muted">Password: password</small>
+                        <small class="text-muted">Password: 12345</small>
                     </div>
                 </div>
             </div>
