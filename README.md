@@ -38,7 +38,7 @@ Aplikasi pemesanan kendaraan untuk perusahaan tambang nikel dengan fitur approva
 
 ```bash
 # 1. Clone repo
-git clone https://github.com/your-username/vehicle-booking.git
+git clone https://github.com/SZtch/vehicle-booking.git
 cd vehicle-booking
 
 # 2. Install dependencies
