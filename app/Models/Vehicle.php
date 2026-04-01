@@ -41,9 +41,9 @@ class Vehicle extends Model
     public function getStatusBadge(): string
     {
         return match($this->status) {
-            'available'   => '<span class="badge badge-success">Tersedia</span>',
-            'in_use'      => '<span class="badge badge-warning">Digunakan</span>',
-            'maintenance' => '<span class="badge badge-danger">Maintenance</span>',
+            'available'   => '<span class="badge bg-success">Tersedia</span>',
+            'in_use'      => '<span class="badge bg-warning">Digunakan</span>',
+            'maintenance' => '<span class="badge bg-danger">Maintenance</span>',
             default       => $this->status,
         };
     }
