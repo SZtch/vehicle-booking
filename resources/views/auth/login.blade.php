@@ -110,7 +110,8 @@
                     <div class="text-center mt-4 pt-3 border-top">
                         <small class="text-muted d-block mb-1">Demo Credentials:</small>
                         <small class="text-muted">Admin: admin@fleet.com</small><br>
-                        <small class="text-muted">Approver: approver1@fleet.com</small><br>
+                        <small class="text-muted">Approver L1: approver1@fleet.com</small><br>
+                        <small class="text-muted">Approver L2: approver2@fleet.com</small><br>
                         <small class="text-muted">Password: 12345</small>
                     </div>
                 </div>
