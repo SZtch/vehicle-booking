@@ -11,6 +11,7 @@ use App\Models\Vehicle;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Validation\Rule;
 
 class BookingController extends Controller
 {
@@ -48,8 +49,8 @@ class BookingController extends Controller
     public function store(Request $request)
     {
         $validated = $request->validate([
-            'vehicle_id'      => 'required|exists:vehicles,id',
-            'driver_id'       => 'required|exists:drivers,id',
+            'vehicle_id'      => ['required', Rule::exists('vehicles', 'id')->where('status', 'available')],
+            'driver_id'       => ['required', Rule::exists('drivers', 'id')->where('status', 'available')],
             'approver_l1_id'  => 'required|exists:users,id',
             'approver_l2_id'  => 'required|exists:users,id|different:approver_l1_id',
             'purpose'         => 'required|string|max:255',
