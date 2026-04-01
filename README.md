@@ -20,9 +20,9 @@ Aplikasi pemesanan kendaraan untuk perusahaan tambang nikel dengan fitur approva
 
 | Role | Email | Password |
 |---|---|---|
-| Admin | admin@fleet.com | password |
-| Approver Level 1 | approver1@fleet.com | password |
-| Approver Level 2 | approver2@fleet.com | password |
+| Admin | admin@fleet.com | 12345 |
+| Approver Level 1 | approver1@fleet.com | 12345 |
+| Approver Level 2 | approver2@fleet.com | 12345 |
 
 ---
 
